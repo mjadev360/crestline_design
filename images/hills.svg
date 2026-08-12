@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="400" fill="#c4dcea"/>
+  <g fill="#ffffff">
+    <ellipse cx="250" cy="88" rx="62" ry="24"/>
+    <ellipse cx="300" cy="82" rx="40" ry="20"/>
+    <ellipse cx="210" cy="92" rx="36" ry="16"/>
+    <ellipse cx="620" cy="70" rx="50" ry="20"/>
+    <ellipse cx="658" cy="66" rx="32" ry="15"/>
+    <ellipse cx="980" cy="96" rx="56" ry="22"/>
+    <ellipse cx="1024" cy="90" rx="34" ry="16"/>
+  </g>
+  <path d="M0 400 V 250 C 90 175 170 145 270 175 C 390 210 470 95 620 140 C 770 185 840 95 990 150 C 1100 190 1160 135 1200 160 V 400 Z" fill="#8bc34a"/>
+  <path d="M0 400 V 310 C 130 245 230 275 360 245 C 510 205 590 300 740 265 C 900 230 1000 295 1200 255 V 400 Z" fill="#c5e372"/>
+  <g transform="translate(168 198)">
+    <ellipse cx="11" cy="8" rx="12" ry="7.5" fill="#fff"/>
+    <circle cx="0" cy="6.5" r="5" fill="#fff"/>
+    <circle cx="-1.4" cy="5.4" r="0.9" fill="#3a3a3a"/>
+    <rect x="6" y="14" width="1.6" height="5" fill="#fff"/>
+    <rect x="13" y="14" width="1.6" height="5" fill="#fff"/>
+  </g>
+</svg>

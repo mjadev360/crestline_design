@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — Crestline Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500&family=Source+Sans+3:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <svg class="mark" viewBox="0 0 34 34" aria-hidden="true">
+            <rect width="34" height="34" fill="#1c1914" />
+            <path d="M4 24 L17 8 L30 24" fill="none" stroke="#f3eee4" stroke-width="1.6" />
+            <path d="M10 24 L17 14 L24 24" fill="none" stroke="#b54a1e" stroke-width="1.6" />
+          </svg>
+          <span class="logo-word">Crestline Design <span>Studio</span></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+          <span class="icon"></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <div class="contact-layout">
+        <aside class="contact-card">
+          <h1>Get in touch</h1>
+          <p>
+            If you’re interested in working together on a residential interior design project, please fill out the inquiry form below so I can learn more about your home.
+          </p>
+        </aside>
+
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="post">
+          <input type="hidden" name="access_key" value="855750e3-06e7-4c0e-848a-17fad4c2cba9" />
+          <input type="hidden" name="subject" value="New Contact Form Submission - Crestline Design" />
+          <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off" />
+
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" />
+
+          <label for="project-address">Project address</label>
+          <input id="project-address" name="project-address" type="text" autocomplete="street-address" />
+
+          <label for="scope">Briefly describe your project or scope of work</label>
+          <textarea id="scope" name="scope" required></textarea>
+
+          <label for="timeline">What is your ideal start date or timeline</label>
+          <input id="timeline" name="timeline" type="text" />
+
+          <label for="budget">Do you have a budget in mind for the project</label>
+          <input id="budget" name="budget" type="text" />
+
+          <button class="btn" type="submit">Send message</button>
+          <p class="form-success" hidden>Thanks! We’ll be in touch shortly.</p>
+        </form>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Crestline Design Studio</p>
+        <p>Bellingham, WA</p>
+      </div>
+    </footer>
+    <script src="js/nav.js"></script>
+  </body>
+</html>
