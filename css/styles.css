@@ -25,7 +25,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.0625rem;
   line-height: 1.65;
   color: var(--ink);
@@ -43,10 +43,9 @@ a {
 
 h1,
 h2,
-h3,
-.logo-word {
-  font-family: "Fraunces", serif;
-  font-weight: 500;
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.15;
 }
@@ -111,11 +110,12 @@ p {
 
 .logo-word {
   font-size: 1.15rem;
+  font-weight: 600;
   letter-spacing: 0.01em;
 }
 
 .logo-word span {
-  font-weight: 300;
+  font-weight: 400;
   opacity: 0.7;
 }
 
@@ -215,7 +215,7 @@ p {
 }
 
 .home-intro {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   font-size: clamp(1.7rem, 3.2vw, 2.4rem);
   font-weight: 500;
   line-height: 1.28;
@@ -429,13 +429,11 @@ p {
 }
 
 .service-num {
-  font-family: "Fraunces", serif;
   font-size: 1.4rem;
   color: var(--accent);
 }
 
 .quote {
-  font-family: "Fraunces", serif;
   font-size: clamp(1.4rem, 2.5vw, 1.9rem);
   line-height: 1.4;
   color: var(--ink);
@@ -455,7 +453,6 @@ p {
 }
 
 .contact-form label {
-  font-family: "Fraunces", serif;
   font-size: 1rem;
 }
 
@@ -485,6 +482,7 @@ p {
 
 .contact-card p {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
   color: var(--paper);
   font-size: 1.15rem;
   line-height: 1.65;
