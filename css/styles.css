@@ -527,6 +527,16 @@ button[type="submit"] {
   color: var(--ink-soft);
 }
 
+.footer-inner a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.footer-inner a:hover {
+  color: var(--ink);
+}
+
 .hidden {
   display: none;
 }
