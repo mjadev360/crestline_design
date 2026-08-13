@@ -99,16 +99,22 @@ p {
 .brand {
   display: flex;
   align-items: center;
+  min-width: 0;
+  flex: 1 1 auto;
   text-decoration: none;
 }
 
 .logo {
-  height: 92px;
   width: auto;
+  height: auto;
+  max-height: 92px;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .nav-toggle {
   display: none;
+  flex-shrink: 0;
   width: 44px;
   height: 44px;
   border: 1px solid var(--line);
