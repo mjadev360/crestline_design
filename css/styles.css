@@ -279,11 +279,22 @@ p {
   margin-bottom: 0;
 }
 
+.profile {
+  margin: 0;
+}
+
 .profile-photo {
   width: 100%;
   height: auto;
   aspect-ratio: 3 / 4;
   object-fit: cover;
+}
+
+.profile-caption {
+  margin-top: 0.75rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  line-height: 1.45;
 }
 
 .gallery {
