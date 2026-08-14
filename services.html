@@ -43,9 +43,26 @@
         </p>
       </div>
 
-      <div class="gallery" aria-label="Project gallery">
-        <img src="images/Kitchen_North_View_-_Highlights_Adjusted.jpg" alt="A bright kitchen with oak cabinetry, a marble island, and a farmhouse sink under a window" />
-        <img src="images/Built-in_Bookshelf_-_Straight_View.jpg" alt="A styled built-in bookshelf with brass lighting, books, and cabinetry below" />
+      <div class="gallery carousel" data-carousel aria-roledescription="carousel" aria-label="Project gallery">
+        <div class="carousel-viewport">
+          <div class="carousel-slide is-active">
+            <img src="images/Kitchen_North_View_-_Highlights_Adjusted.jpg" alt="A bright kitchen with oak cabinetry, a marble island, and a farmhouse sink under a window" />
+          </div>
+          <div class="carousel-slide">
+            <img src="images/Built-in_Bookshelf_-_Straight_View.jpg" alt="A styled built-in bookshelf with brass lighting, books, and cabinetry below" />
+          </div>
+        </div>
+        <button class="carousel-btn carousel-prev" type="button" aria-label="Previous image">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <path d="M15 5 8 12l7 7"></path>
+          </svg>
+        </button>
+        <button class="carousel-btn carousel-next" type="button" aria-label="Next image">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <path d="m9 5 7 7-7 7"></path>
+          </svg>
+        </button>
+        <div class="carousel-dots"></div>
       </div>
     </main>
 
@@ -81,5 +98,6 @@
       </div>
     </footer>
     <script src="js/nav.js"></script>
+    <script src="js/carousel.js"></script>
   </body>
 </html>
