@@ -58,6 +58,8 @@ class SiteFooter extends HTMLElement {
           <div class="footer-contact">
             <p>Crestline Design Studio LLC</p>
             <p>Bellingham, WA</p>
+          </div>
+          <div class="footer-social">
             <p>
               <a class="footer-link" href="https://www.instagram.com/crestline.design.studio/" target="_blank" rel="noopener noreferrer">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
