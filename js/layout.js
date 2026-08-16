@@ -80,10 +80,10 @@ class SiteFooter extends HTMLElement {
               </a>
             </p>
           </div>
-          <p class="footer-credit">
-            Site made by
+          <div class="footer-credit">
+            <p>Site made by</p>
             <a href="https://www.whatcomwebsolutions.com/" target="_blank" rel="noopener noreferrer">Whatcom Web Solutions</a>
-          </p>
+          </div>
         </div>
       </footer>
     `;
