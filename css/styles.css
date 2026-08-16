@@ -71,6 +71,11 @@ p {
   color: var(--ink-soft);
 }
 
+site-header,
+site-footer {
+  display: block;
+}
+
 .lede {
   font-size: 1.2rem;
   max-width: 38rem;
