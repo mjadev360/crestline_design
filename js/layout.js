@@ -69,12 +69,12 @@ class SiteFooter extends HTMLElement {
               </a>
             </p>
             <p>
-              <a class="footer-link" href="mailto:crestline.ds@gmail.com">
+              <a class="footer-link" href="mailto:emma@crestlinedesignstudio.com">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
                   <rect x="3" y="5" width="18" height="14" rx="2"></rect>
                   <path d="M4 7.5 12 13l8-5.5"></path>
                 </svg>
-                crestline.ds@gmail.com
+                emma@crestlinedesignstudio.com
               </a>
             </p>
           </div>
